@@ -1,0 +1,15 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Victor ROBIC",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "express": "^4.18.1"
+  }
+}

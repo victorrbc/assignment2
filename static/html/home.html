@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="../js/script.js"></script>
+</head>
+
+<div class="row align-items-center">
+    <div class="col">
+    </div>
+    <div class="col align-self-center">
+        <img src="../img/number.jpeg" alt="Number" width="100%">
+        <h4>Select the type of story : </h2>
+        <select id="selecttype" class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="trivia">Trivia</option>
+            <option value="math">Math</option>
+            <option value="date">Date</option>
+            <option value="year">Year</option>
+        </select>
+        </br>
+          <h4>Enter the number associated : </h2>
+          <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="number" placeholder="1,2,3...">
+              <label for="floatingInput">The number</label>
+          </div>
+        </br>
+          <div>
+            <button id="buttonValidation" onclick=callapi()>Check</button>
+          </div>
+        </br>
+          <div class="" role="alert" id="display">
+          </div>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+
+
+
+
+
+</html>
